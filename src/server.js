@@ -59,7 +59,6 @@ app.get('/', (req, res) => {
       </head>
       <body>
       <h1>Request-resan (GET → POST → DB)</h1>
-      <p class="hint">Röd triangel i ritningen: <strong>req.body</strong> (input från användare).</p>
 
       <form method="POST" action="/send">
          <label>
